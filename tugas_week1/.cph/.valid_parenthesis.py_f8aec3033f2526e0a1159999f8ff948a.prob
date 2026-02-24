@@ -1,1 +1,0 @@
-{"name":"Local: valid_parenthesis","url":"/home/dff/Documents/UbuntuCodes/Strukdat-rka25/tugas_week1/valid_parenthesis.py","tests":[{"id":1771900330439,"input":"][)(","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/dff/Documents/UbuntuCodes/Strukdat-rka25/tugas_week1/valid_parenthesis.py","group":"local","local":true}
