@@ -4,13 +4,10 @@ relation = {'{':'}','}':'{',
             '(':')',')':'(',
             '[':']',']':'['}
 for i in x:
-    if not stack:
-        stack.append(i)
+    if stack and relation[stack[-1]] == i:
+        stack.pop()
     else:
-        if relation[stack[-1]] == i:
-            stack.pop()
-        else:
-            stack.append(i)
+        stack.append(i)
 if len(stack) == 0:
     print("Valid")
 else:
